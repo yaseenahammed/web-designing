@@ -1,0 +1,122 @@
+
+  .hero {
+    
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px #000;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  
+  }
+
+  .quote {
+    font-style: italic;
+    margin-top: 30px;
+  }
+ 
+.card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.info-card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+    background-color: inherit !important;
+  }
+  
+  .card {
+    border-radius: 12px;
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .carousel-item {
+    height: 80vh;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+   /* Hero Section Styling */
+   .hero {
+    height: 80vh; /* Maintain 80vh height for the hero section */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Carousel Image Styling */
+#heroCarousel {
+    width: 100%;
+    height: 100%; /* Full height within the hero section */
+}
+
+#heroCarousel .carousel-item img {
+    object-fit: cover; /* Ensure images cover the space */
+    width: 100%;
+    height: 100%; /* Maintain full height */
+}
+
+/* Text Styling within the Carousel */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem; /* Keep the size for h1 */
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Card Hover Effects */
+.card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+    background-color: inherit !important;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
